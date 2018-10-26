@@ -5,11 +5,11 @@ package ru.aplana.demo;
  */
 public class Division extends Operation {
 
-	public Division(float number1, float number2) {
+	public Division(double number1, double number2) {
 		super(number1, number2);
 	}
 
-	public float calculateResult() {
+	public double calculateResult() {
 		if (getNumber2() == 0){
 			throw new DivisionException("На 0 делить нельзя!");
 		}

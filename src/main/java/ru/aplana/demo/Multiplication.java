@@ -9,7 +9,7 @@ public class Multiplication extends Operation {
 		super(number1, number2);
 	}
 
-	public float calculateResult() {
+	public double calculateResult() {
 		return getNumber1() * getNumber2();
 	}
 

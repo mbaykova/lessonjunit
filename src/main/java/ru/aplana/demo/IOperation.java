@@ -5,6 +5,6 @@ package ru.aplana.demo;
  */
 public interface IOperation {
 
-	float calculateResult();
+	double calculateResult();
 	String getSign();
 }

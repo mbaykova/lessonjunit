@@ -5,11 +5,11 @@ package ru.aplana.demo;
  */
 public class Subtraction extends Operation {
 
-	public Subtraction(float number1, float number2) {
+	public Subtraction(double number1, double number2) {
 		super(number1, number2);
 	}
 
-	public float calculateResult() {
+	public double calculateResult() {
 		return getNumber1() - getNumber2();
 	}
 
